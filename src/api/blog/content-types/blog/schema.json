@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bgColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "name": {
+      "type": "string"
+    },
+    "tols": {
+      "type": "customField",
+      "customField": "plugin::my-custom-fields.picker"
+    }
+  }
+}
